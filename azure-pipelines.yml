@@ -15,7 +15,7 @@ steps:
 - task: Kubernetes@1
   inputs:
     connectionType: 'Azure Resource Manager'
-    azureSubscriptionEndpoint: 'mysvc connection'
+    azureSubscriptionEndpoint: 'thisisforacrdemo'
     azureResourceGroup: 'gov-devops'
     kubernetesCluster: 'myakscluster'
     command: 'apply'
