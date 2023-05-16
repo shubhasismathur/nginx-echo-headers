@@ -6,3 +6,5 @@ spec:
   containers:
   - name: private-reg-container
     image: mygovacrshubh.azurecr.io/nginx-echo-headers:latest
+  imagePullSecrets:
+  - name: regcred
