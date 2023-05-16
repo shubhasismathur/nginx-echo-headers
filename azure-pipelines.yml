@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  name: 'govpool'
+  name: 'myselfhostedagentpool'
 
 steps:
 - task: Docker@2
