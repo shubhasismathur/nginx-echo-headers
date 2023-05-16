@@ -15,7 +15,7 @@ steps:
 - task: Kubernetes@1
   inputs:
     connectionType: 'Azure Resource Manager'
-    azureSubscriptionEndpoint: 'armsvccon'
+    azureSubscriptionEndpoint: 'mysvc connection'
     azureResourceGroup: 'gov-devops'
     kubernetesCluster: 'myakscluster'
     command: 'apply'
